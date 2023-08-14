@@ -1,9 +1,9 @@
-import newrelic.agent
+#import newrelic.agent
 
 from flask import Flask, request
 from flask import render_template
 
-newrelic.agent.initialize('newrelic.ini')
+#newrelic.agent.initialize('newrelic.ini')
 app = Flask(__name__)
 
 todos = []
